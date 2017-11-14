@@ -47,3 +47,5 @@ A sample consists of some data of the object. In the case of our apple, some rel
 1. 3 oz, red ... Strawberry
 
 We will test the agent sample by sample, noting if it was correct. Noting the number of failures is absolute, and will vary based on how many samples you test on. A better metric is 
+
+$ TP / P $
