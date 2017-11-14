@@ -34,3 +34,16 @@ In today’s lab, we will make a simple reflex agent that predicts the species o
 1. Calculate the specificity, precision and accuracy
 
 You must complete the lab with a partner. Collaboration with your lab partner is okay. Collaboration with other groups is also okay. Yet, sharing of code between groups is not okay and is cheating. I will assign a single grade to each group. If disputes arise you may switch partners. But, you must notify the instructor of any changes before any the start of the next lab. This repository contains base C++ code but you are not required to use it. I am familiar with C, C++, Java, MATLAB, Prolog, and Javascript. Refer to the syllabus for grading policies.
+
+## Reflex agents
+
+A reflex agent is an AI agent that acts only on the current stimulus. Reflex agents follow IF condition THEN action rules. This is like rule-based expert systems, except those systems have inference. Rule-based expert systems are discussed in Chapter 2. The reflex agent for today carries out a prediction using an IF-THEN rule. It does not use inference, consider the history of the data, or learn. An example: `IF 'fruit' is 'red' THEN 'fruit' is 'apple'`.  
+
+As it turns out, there are red fruits out there that are not apples. Our agent can be wrong. This is an important concept. So, to measure the performance of our system, we will test it with many samples.
+
+A sample consists of some data of the object. In the case of our apple, some relevant features are the weight, and color. It also has an associated correct prediction. For example:
+
+1. 6 oz, yellow ... Bannana
+1. 3 oz, red ... Strawberry
+
+We will test the agent sample by sample, noting if it was correct. Noting the number of failures is absolute, and will vary based on how many samples you test on. A better metric is 
