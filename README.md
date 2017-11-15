@@ -96,5 +96,6 @@ As it stands, the program only reports the number of true positives and the sens
 
 ## Requirements for check off
 
+* This lab must be checked off in person
 * Achieve at least 70% true positive rate
 * Show the instructor your code, and the values for specificity, precision and accuracy
